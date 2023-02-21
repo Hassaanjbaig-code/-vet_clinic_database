@@ -7,3 +7,6 @@ animal_escape_attempts INTEGER,
 neutered BOOLEAN,
 animal_weight_kg DECIMAL
 )
+
+ALTER TABLE animal
+ADD COLUMN species varchar(50);
