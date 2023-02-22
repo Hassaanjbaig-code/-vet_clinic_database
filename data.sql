@@ -30,10 +30,10 @@ insert into animal(id, animalname, animal_date_of_birth,
 animal_escape_attempts, neutered, animal_weight_kg) values (8, 'Angemon', '2021-06-12', 1, true, '-45');
 
 insert into animal(id, animalname, animal_date_of_birth,
-animal_escape_attempts, neutered, animal_weight_kg) values (9, 'Boarmon', '2005-06-07', 7, true, '-20.4');
+animal_escape_attempts, neutered, animal_weight_kg) values (9, 'Boarmon', '2005-06-07', 7, true, '20.4');
 
 insert into animal(id, animalname, animal_date_of_birth,
-animal_escape_attempts, neutered, animal_weight_kg) values (10, 'Blossom', '1998-10-13', 3, true, '-17');
+animal_escape_attempts, neutered, animal_weight_kg) values (10, 'Blossom', '1998-10-13', 3, true, '17');
 
 insert into animal(id, animalname, animal_date_of_birth,
 animal_escape_attempts, neutered, animal_weight_kg) values (11, 'Ditto', '2022-05-14', 4, true, '22');

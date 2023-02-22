@@ -12,9 +12,12 @@ select * from animal where animal_weight_kg between 10 AND 17;
 
 start transaction;
 update animal set species = 'unspecified';
+select species from animal;
 rollback;
+select species from animal;
 update animal set species = 'digimon' where animalname like '%mon';
-update animal set species = 'pokemon' where animalname not like '%mon';
+UPDATE animals SET species = 'pokemon' WHERE species IS NULL;
+select species from animal;
 commit;
 select * from animal;
 start transaction;
