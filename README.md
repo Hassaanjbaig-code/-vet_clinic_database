@@ -125,6 +125,9 @@ Example commands:
 ### Install
 
 Install this project with:
+ > You can install an extention of `PostgraSQL` .
+ > Or you can download `mySQL workbench`.
+  [mySQL](https://dev.mysql.com/downloads/workbench/) 
 
 <!--
 Example command:
@@ -138,6 +141,9 @@ Example command:
 ### Usage
 
 To run the project, execute the following command:
+
+- You just copy and paste one by one line and run it 
+ > on VS-CODE `Right Click`> `run query`
 
 <!--
 Example command:
@@ -167,7 +173,7 @@ Example command:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Hassaan Baig**
 
 - GitHub: [@githubhandle](https://github.com/Hassaanjbaig-code)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/hassaan-jawwad-baig)
@@ -219,7 +225,5 @@ I would like to thank...
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
