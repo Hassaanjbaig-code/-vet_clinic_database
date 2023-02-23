@@ -37,3 +37,35 @@ animal_escape_attempts, neutered, animal_weight_kg) values (10, 'Blossom', '1998
 
 insert into animal(id, animalname, animal_date_of_birth,
 animal_escape_attempts, neutered, animal_weight_kg) values (11, 'Ditto', '2022-05-14', 4, true, '22');
+
+
+insert into owners(fullname, age) values ('Sam Smith', 34);
+
+insert into owners(fullname, age) values ('Jennifer Orwell', 19);
+
+insert into owners(fullname, age) values ('Bob', 45), ('Melody Pond', 77), ('Dean Winchester', 14);
+
+insert into owners(fullname, age) values ('Jodie Whittaker', 38);
+
+insert into species(fullname) values ('Pokemon'), ('Digimon');
+
+select * from animal;
+
+update animal set animal.species_id =2 where animal.animalname like '%mon';
+
+update animal set animal.species_id = 1 where animal.species_id is null;
+
+select * from animal;
+
+
+update animal set owner_id = 1  where animal.animalname like 'Agumon';
+
+update animal set owner_id = 2 where animal.animalname = 'Pikachu' or animal.animalname = 'Gabumon' ;
+
+update animal set animal.owner_id = 3 where animal.animalname like 'Devimon' or animal.animalname like 'Plantmon';
+
+update animal set owner_id = 4 where animal.animalname like 'Charmander' or animal.animalname like 'Squirtle' or animal.animalname like 'Blossom';
+
+update animal set animal.owner_id = 5 where animal.animalname like 'Angemon' or animal.animalname like 'Boarmon';
+
+select * from animal;
