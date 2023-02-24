@@ -49,6 +49,8 @@ date_visit date not null
 );
 
 create table specializations(
-species_id  int references species(id),
-vets_id int references vets(id)
+species_id  int,
+vets_id int,
+foreign key (species_id) references species(id),
+foreign key (vets_id) references vets(id)
 );

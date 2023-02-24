@@ -51,7 +51,7 @@ select animal.species_id, animal.animalname, species.id, species.fullname from a
 select animal.owner_id, animal.animalname, owners.fullname, owners.id from animal join owners on animal.owner_id = owners.id where animal.owner_id = null;
 
 -- How many animals are there per species?
-select count(animal.species_id), species.id, species.fullname from animal join species on animal.species_id = species.id group by species.id;
+select count(*) from visits join vets on visits.vets_id = vets.id where vets.name = 'Stephanie Mendez';
 
 -- List all Digimon owned by Jennifer Orwell.
 select species.id, owners.id, owners.fullname from animal join species on animal.species_id  =species.id join owners on animal.owner_id = owners.id where owners.fullname = 'Jennifer Orwell';
@@ -74,15 +74,17 @@ select count(visits.animal_id) from visits where visits.vets_id = 3;
 select vets.name, specializations.vets_id from vets left join specializations on vets.id = specializations.vets_id;
 
 -- List all animals that visited Stephanie Mendez between April 1st and August 30th, 2020.
-select * from visits where visits.vets_id =3 and visits.date_visit between '2020-04-01' and '2020-08-30';
+select animal.animalname, visits.date_visit, vets.name from visits join vets on visits.vets_id = vets.id
+join animal on visits.animal_id = animal.id
+where visits.date_visit between '2020-04-01' and '2020-08-30';
 
 
--- Who was Maisy Smith's first visit?
+-- What animal has the most visits to vets??
 select animal.animalname, count(*)  from animal join visits on animal.id = visits.animal_id group by animal.animalname order by count(*) desc limit 1;
 
 
 -- Who was Maisy Smith's first visit?
-select visits.date_visit, visits.animal_id,vets.name from vets join visits on vets.id = visits.vets_id and vets.name like 'Vet Maisy Smith' limit 1;
+select visits.date_visit, visits.animal_id,vets.name from vets join visits on vets.id = visits.vets_id and vets.name like 'Maisy Smith' limit 1;
 
 
 -- Details for most recent visit: animal information, vet information, and date of visit.
@@ -102,4 +104,4 @@ select vets.name, count(animal.species_id), species.fullname from vets
 join visits on vets.id = visits.vets_id 
 join animal on visits.animal_id = animal.id
 join species on animal.species_id = species.id
-where vets.name = 'Vet Maisy Smith' group by species.fullname order by species.fullname asc limit 1;
+where vets.name = 'Maisy Smith' group by species.fullname order by species.fullname asc limit 1;
