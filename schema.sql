@@ -40,3 +40,15 @@ alter table animal add foreign key (owner_id ) references owners(id);
 
 select * from species;
 select * from owners;
+
+
+create table visits(
+animal_id int references animal(id),
+vets_id int references vets(id),
+date_visit date not null 
+);
+
+create table specializations(
+species_id  int references species(id),
+vets_id int references vets(id)
+);
