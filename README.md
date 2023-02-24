@@ -186,7 +186,7 @@ Example command:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[Wanted to add delete which can easly the data]**
+- [ ] **[Wanted to join and update the data]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
