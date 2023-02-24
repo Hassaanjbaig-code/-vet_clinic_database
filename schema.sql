@@ -54,3 +54,10 @@ vets_id int,
 foreign key (species_id) references species(id),
 foreign key (vets_id) references vets(id)
 );
+
+create table vets(
+id integer auto_increment primary key,
+name varchar(100),
+age integer,
+date_of_graduation date
+);
