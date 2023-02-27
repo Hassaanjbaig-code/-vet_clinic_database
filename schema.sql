@@ -61,3 +61,5 @@ name varchar(100),
 age integer,
 date_of_graduation date
 );
+
+ ALTER TABLE owners ADD COLUMN email VARCHAR(120);
