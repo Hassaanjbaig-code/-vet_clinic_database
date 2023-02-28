@@ -37,3 +37,10 @@ create table invoice_items(
     foreign key (invoice_id) REFERENCES invoices(id),
     foreign key (treatment_id) REFERENCES treatments(id)
 )
+
+CREATE INDEX patient_id_asc ON medical_histories(patient_id ASC);
+CREATE INDEX medical_history_id_asc ON invoices(medical_history_id ASC);
+CREATE INDEX medical_history_id_asc ON treatment_historiy(medical_history_id ASC);
+CREATE INDEX treatment_id_asc ON treatment_historiy(treatment_id ASC);
+CREATE INDEX invoice_id_asc ON invoice_items(invoice_id ASC);
+CREATE INDEX treatment_id_asc ON invoice_items(treatment_id ASC);
