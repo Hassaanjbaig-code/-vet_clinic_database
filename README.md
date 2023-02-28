@@ -168,6 +168,12 @@ Example command:
 - GitHub: [@githubhandle](https://github.com/Hassaanjbaig-code)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/hassaan-jawwad-baig)
 
+ **Micheal Oguntayo**
+
+  - GitHub: [@oguntayomicheal](https://github.com/oguntayomicheal) 
+  - Twitter:  [@OguntayoMicheal](https://twitter.com/Oguns_micky) 
+  - LinkedIn: [@OguntayoMicheal](https://www.linkedin.com/in/ogunsmicky/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -177,6 +183,7 @@ Example command:
 > Describe 1 - 3 features you will add to the project.
 
 - [ ] **[Wanted to join and update the data]**
+- [ ] **[Emplement in the website]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
