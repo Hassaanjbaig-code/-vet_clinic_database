@@ -61,3 +61,9 @@ name varchar(100),
 age integer,
 date_of_graduation date
 );
+
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+
+CREATE INDEX ON visits (animal_id);
+CREATE INDEX ON visits (vet_id);
+CREATE INDEX ON owners (email);
