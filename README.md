@@ -51,6 +51,11 @@ After you're finished please remove all the comments and instructions!
 
 **[Vet-Cline-database]** is a relational database that have 6 thing (id, animal name, animal date of birth, neutered, and also animal weight).
 
+# 📖 [Medical-Cline-database] <a name="about-project"></a>
+
+**[Medical-Cline-database]** is a relational database that is you for getting automatic record of patient. It also use to store the history of the patient, what is the tretment is using, and also store invoice. 
+
+
 ## 🛠 Built With <a name="built-with"></a>
 
 > DataBases
@@ -73,9 +78,16 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
+> Vet_Clinic Database
+
 - **[User can store the record of the animal]**
 - **[Each has specific id that you can enter which make easy to find]**
 - **[User can update the data ]**
+
+> Medical_Clinic database
+
+- **[Use to store the record of the patient]**
+- **[Also store the patient history and invoice]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -116,8 +128,6 @@ Example commands:
 
 Install this project with:
  > You can install an extention of `PostgraSQL` .
- > Or you can download `mySQL workbench`.
-  [mySQL](https://dev.mysql.com/downloads/workbench/) 
 
 <!--
 Example command:
@@ -133,7 +143,7 @@ Example command:
 To run the project, execute the following command:
 
 - You just copy and paste one by one line and run it 
- > on VS-CODE `Right Click`> `run query`
+ > on postgreSQL shel 
 
 <!--
 Example command:
@@ -201,9 +211,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project besure to give a star and also connect on over social media website for getting uptodate knowladge.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -211,9 +219,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+I would like to thank  code reviewers for making this project better.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
